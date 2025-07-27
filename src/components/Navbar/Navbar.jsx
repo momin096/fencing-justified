@@ -21,10 +21,10 @@ const Navbar = () => {
 
         {/* Left Navigation - Hidden on small screens */}
         <div className="hidden lg:flex gap-6 text-sm font-medium text-gray-700">
-          <Link to="/">Home</Link>
-          <Link to="/shop">Shop</Link>
-          <Link to="/blogs">Blogs</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="#">Home</Link>
+          <Link to="#">Shop</Link>
+          <Link to="#">Blogs</Link>
+          <Link to="#">Contact</Link>
         </div>
 
         {/* Center Logo */}
