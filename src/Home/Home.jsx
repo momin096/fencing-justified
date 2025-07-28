@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import ProductSlider from "../components/ProductSlider/ProductSlider";
 import Slider from "../components/Slider/Slider";
+import TrustedSection from "../components/TrustedSection/TrustedSection";
 
 
 const agriculturalProducts = [
@@ -94,6 +95,9 @@ const Home = () => {
                 <ProductSlider title="Agricultural Products" products={agriculturalProducts} />
                 <ProductSlider title="Landscape Products" products={landscapeProducts} />
             </div>
+
+            {/* Trusted Section */}
+            <TrustedSection />
         </div>
     );
 };
