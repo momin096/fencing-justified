@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 import ProductSlider from "../components/ProductSlider/ProductSlider";
 import Slider from "../components/Slider/Slider";
 import TrustedSection from "../components/TrustedSection/TrustedSection";
+import WhyUs from "../components/WhyUs/WhyUs";
 
 
 const agriculturalProducts = [
@@ -98,6 +99,9 @@ const Home = () => {
 
             {/* Trusted Section */}
             <TrustedSection />
+
+            {/* Why Us  Section*/}
+            <WhyUs />
         </div>
     );
 };
