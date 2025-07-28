@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import ProductSlider from "../components/ProductSlider/ProductSlider";
 import Slider from "../components/Slider/Slider";
+import Testimonials from "../components/Testimonials/Testimonials";
 import TiltedBanner from "../components/TiltedBanner/TiltedBanner";
 import TrustedSection from "../components/TrustedSection/TrustedSection";
 import WhyUs from "../components/WhyUs/WhyUs";
@@ -105,6 +106,8 @@ const Home = () => {
             <WhyUs />
 
             <TiltedBanner />
+
+            <Testimonials />
         </div>
     );
 };
