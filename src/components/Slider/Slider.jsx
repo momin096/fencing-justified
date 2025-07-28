@@ -14,7 +14,7 @@ const BannerSlider = () => {
     ];
 
     return (
-        <div className="w-full bg-white">
+        <div className="w-full  bg-white">
             <Swiper
                 slidesPerView={1.6}
                 centeredSlides={true}
