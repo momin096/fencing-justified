@@ -1,0 +1,28 @@
+
+.banner-swiper .swiper-button-next,
+.banner-swiper .swiper-button-prev {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+
+.banner-swiper .swiper-button-next:hover,
+.banner-swiper .swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.banner-swiper .swiper-button-next::after,
+.banner-swiper .swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: bold;
+}

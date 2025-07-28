@@ -44,15 +44,15 @@ const Testimonials = () => {
                             <SwiperSlide key={index}>
                                 <div className="bg-gray-50 rounded-xl shadow-md p-10 relative">
 
-                                    {/* Green Quote Icon */}
-                                    <div className="text-green-500 text-4xl mb-3">❝</div>
+                                   
+                                    <div className="text-green-500 text-9xl mb-3">❝</div>
 
-                                    {/* Testimonial Text */}
+                                    
                                     <p className="text-gray-700 text-base leading-relaxed mb-4 text-shadow-md">
                                         {item.text}
                                     </p>
 
-                                    {/* Name */}
+                                   
                                     <h3 className="font-bold text-gray-900 text-xl">
                                         - {item.name}
                                     </h3>
